@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head> 
+        <meta charset="UTF-8"> <!--인코딩 방식: 세계 표준 인코딩 방식-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--익스플로러를 이용한다면 최신 버전 엣지로 화면 보여줌--> 
+        <meta name="viewport" content="width=device-width, inital-scale=1.0"> <!--디바이스 종류별로 화면 출력 방식 지정-->
+        <!--viewport가 있어야 반응형 웹 페이지 제작할 때 모바일 화면에 결과물 출력이 가능-->
+        <title>JIWOO PROFILE</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div id = "Wrap">
+            <!--상위 백그라운드-->
+            <div id = "header">
+                <div class = "logo">
+                    <a href = "profile.html"><img src = "images/logo.png" alt = "로고"></a>
+                </div>
+                <!--서치 박스 안에 이지우 텍스트-->
+                <div class = "search">
+                    <input type="text" placeholder="이지우" id="search-bar">
+                </div>
+
+                <!--프로필, 작품 버튼 부분 백그라운드-->
+                <div class = "menu">
+                    <!--프로필, 작품 버튼-->
+                    <ul class = "sidemenu">
+                        <li><a href = "#">프로필</a></li>
+                        <li><a href = "work.html">작품</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--중간 프로필-->
+            <div id = "container">
+
+                <!--프로필 백그라운드-->
+                <div id="profile" class = "profile">
+                    <!--가운데로 오는 프로필 박스(노란색)-->
+                    <div class="profile-box">
+                        <div class="profile-header">
+                            <h3>이지우</h3>
+                            <h4>개발자</h4>
+                        </div>
+                         <!-- 버튼들 -->
+                        <ul class = "button">
+                            <li><a href = "#">전체</a></li>
+                            <li><a href = "#education">학력사항</a></li>
+                            <li><a href = "#license">자격정보</a></li>
+                            <li><a href = "#skills">숙련도</a></li>
+                            <li><a href = "#keywords">키워드</a></li>
+                        </ul>
+                    </div>
+                    <!-- 프로필 정보 -->
+                    <div class="profile-content">
+                        <ul class="info-text">
+                            <li>이메일 ㅤㅤ<span>jiwoo1023lee@naver.com</span></li>
+                            <li>최종학력ㅤ<span>한국폴리텍대학 메타버스콘텐츠과</span></li>
+                            <br>
+                            <li>"저는 자바스크립트를 주로 다루는 웹 개발자로 성장하고 싶습니다. 웹페이지에 대한 관심이 많았고, 이를 바탕으로 프로그래밍을 시작하게 되었습니다. 그 중에서도 자바스크립트는 웹 개발의 핵심 언어로, 동적인 웹 페이지와 사용자 경험을 구축하는 데 큰 매력을 느껴 깊이 공부하고 있습니다.
+
+                                저는 배움이 빠르고 책임감이 강한 성격을 가지고 있습니다. 학업을 통해 기본적인 프로그래밍 능력을 쌓았습니다. 또한, 팀 프로젝트와 개인 프로젝트를 통해 실무 능력을 쌓고 있으며, Git을 활용해 협업을 경험하고 있습니다.
+                                
+                                제 목표는 끊임없이 학습하며 최신 웹 기술을 마스터하고, 프론트엔드와 백엔드를 넘나드는 풀스택 개발자로 성장하는 것입니다. 사용자 경험을 최우선으로 고려하며, 효율적이고 깔끔한 코드를 작성하는 개발자가 되고 싶습니다. 책임감을 가지고 맡은 일을 끝까지 완수하는 태도로, 팀워크를 중요시하며 협업하는 개발자로 성장할 것입니다."</li>
+                        </ul>
+                        <div class="photo">
+                            <img src = "images/Jiwoo4.png" alt = "프로필">
+                        </div>
+                    </div>
+                </div>
+
+
+            <!--학력사항-->
+            <div id="education" class="box">
+                <h3>학력사항</h3>
+                <p><span>2021.02</span> 송원여자상업고등학교 졸업</p>
+                <p><span>2023.03</span> 한국폴리텍대학 메타버스콘텐츠과 입학</p>
+                <p><span>2025.02</span> 한국폴리텍대학 메타버스콘텐츠과 졸업</p>
+            </div>
+
+            <!-- 자격정보 -->
+            <div id="license" class="box">
+                <h3>자격정보</h3>
+                <p><span>2018.12</span> 아래한글</p>
+                <p><span>2018.12</span> 한글파워포인트</p>
+            </div>
+
+            <!-- 숙련도 -->
+            <div id="skills" class="box">
+                <h3>숙련도</h3>
+                <p>숙련도에 관한 내용이 들어갑니다.</p>
+            </div>
+
+            <!-- 키워드 -->
+            <div id="keywords" class="box">
+                <h3>키워드</h3>
+                <div class="keyword-container">
+                    <span class="keyword-box">#습득력이_빨라요</span>
+                    <span class="keyword-box">#책임감이_강해요</span>
+                    <span class="keyword-box">#시간약속을_잘지켜요</span>
+                    <span class="keyword-box">#팀워크_중시해요</span>
+                </div>
+            </div>
+        </div>
+            
+
+            <div id = "footer">
+
+            </div>
+        </div>
+
+        <script>
+             // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+
+    </body>
+</html>
